@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upload File</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>Upload a file</p>
-</body>
+    <form method="POST" enctype="multipart/form-data">
+      <label for="file"></label>
+      <input type="file" name="file" id="file" />
+      <br /><br />
+      <button>Submit</button>
+    </form>
+  </body>
 </html>
