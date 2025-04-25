@@ -9,6 +9,14 @@ function HandleSubmit(event) {
   fetch(form.action, {
     method: "post",
     body: new FormData(form),
-  });
-  console.log("file sent")
+  })
+    .then((res) => res.text())
+    .then((data) => {
+      console.log("Server response:", data);
+    })
+    .catch((err) => {
+      console.error("Upload failed:", err);
+    });
+
+  console.log("file sent");
 }
