@@ -19,7 +19,7 @@ Welche 3 *features* sind die wichtigsten Ihres Projektes? Wie können Sie die Ma
 - [ ] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? Brauche ich eine weniger Front-End orientierte Lösung?
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich eine Idee um Lernatelier Anforderungen erweitert. Wenn ich Sandbox Spiele über die Produktion spiele, wie z.B. Factorio, finde ich es schwierig weiterzukommen und zu planen, weil ich nicht genug Informationen habe. Ich habe viel darüber nachgedacht, was meine Anforderungen an Informationen sind und wie ich meine Idee in einem Stack umsetzen kann. Nachdem ich ChatGPT konsultiert hatte, erfuhr ich von D3. Ich habe also entschieden, ein klassisches Webapp zu erstellen. Nachdem ich make-or-break Features aufgeschrieben habe, habe ich anhand Tutorials gelernt, wie man eine Datei hochladen kann.
 
 ☝️ Vergessen Sie nicht, den Code von heute auf github hochzuladen. Ggf. bietet es sich an, für die Code-Schnipsel einen eigenen Ordner `exploration` zu erstellen.
 
