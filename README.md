@@ -9,6 +9,7 @@
 2. Welche Datenbank-Technologie möchten Sie üben? Fühlen Sie sich sicher mit SQL und möchten etwas Neues ausprobieren; oder möchten Sie sich weiter mit SQL beschäftigen?
    Ich möchte weiter SQL verwenden. 
 3. Was wäre ein geeignetes Abschluss-Projekt?
+   Für mein Abschluss-Projekt möchte ich mit Hilfe von SQL, ASP.NET und C# und HTML, JS und neu D3 eine Webapplikation erstellen. Das Projekt wird über Produktion und Fabriken sein. Man kann eigene Produktionslinie per Webseite "automatisch", also dank automatische D3 Visualisierung, darstellen. Und man kann die Konfiguration speichern, in dem man es als eine Datei herunterladet. Dann kann man die Datei hochladen, um weiter zu arbeiten.
 
 ## 25.4
 
