@@ -15,7 +15,7 @@
 
 Welche 3 *features* sind die wichtigsten Ihres Projektes? Wie können Sie die Machbarkeit dieser in jeweils 45' am einfachsten beweisen?
 
-- [ ] *make or break feature* 1: Wie kann ich eine Datei via Webseite hochladen, sodass ihre Inhalt geladen und gezeigt wird?
+- [x] *make or break feature* 1: Wie kann ich eine Datei via Webseite hochladen, sodass ihre Inhalt geladen und gezeigt wird?
 - [ ] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? Brauche ich eine weniger Front-End orientierte Lösung?
 
