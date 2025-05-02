@@ -28,13 +28,13 @@ Welche 3 *features* sind die wichtigsten Ihres Projektes? Wie können Sie die Ma
 Ausgehend von Ihren Erfahrungen vom 25.4, welche *features* brauchen noch mehr Recherche? (Sie können auch mehrere AP für ein *feature* aufwenden.)
 
 - [x] Auf einen Blatt Papier werde ich detalierter Datenbank Diagramm aufzeichnen. (📵)
-- [ ] Damit ich nach einen Ziel arbeite, werde ich ein Fabrik-Prozess aufzeichnen, wie es die App generieren könnte (Hälfte habe ich in blaues Heft schon gezeichnet) (📵)
+- [x] Damit ich nach einen Ziel arbeite, werde ich ein Fabrik-Prozess aufzeichnen, wie es die App generieren könnte (Hälfte habe ich in blaues Heft schon gezeichnet) (📵)
 - [x] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
   - [x] Ein schnelles API entwerfen, um (vermutlich) mit Swagger Anfrage senden, per API fangen und, anstatt wie üblich Daten zurückliefern, eine Berechnung durchführen und ein Beispielergebniss zurückliefern.
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? 
   - [ ] Ich werde mittels D3 ausprobieren, verschiedene Figuren mittels Code zu generieren und sie dann mit ein Strich verbinden. (für Figuren habe ich ein Tutorial gefunden [Learning D3 Part 4 - Drawing Basic Shapes with SVG - YouTube](https://www.youtube.com/watch?v=16BfEjrNzr4) )
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich die Hauptfunktion geprüft. Ich habe eine API aus VS Templates gewählt, von alte Arbeit POST-Controller eingefügt und noch eine Klasse einegfügt, die das Format für POST hält. Dann wenn ich mit Swagger eine Anfrage mit 2 Zahlen geschickt habe, bekam ich die Summe. D3 habe ich kaum gemacht, weil das zu gross für mein Projekt ist. Gegen Ende habe ich Datenbank Diagramm etwas genauer auf Papier gezeichnet und übernahm es zur UMLet. (75)
 
 ☝️ Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
@@ -42,15 +42,15 @@ Ausgehend von Ihren Erfahrungen vom 25.4, welche *features* brauchen noch mehr R
 
 Planen Sie nun Ihr Projekt, sodass die *Kern-Funktionalität* in 3 Sitzungen realisiert ist. Schreiben Sie dazu zunächst 3 solche übergeordneten Kern-Funktionalitäten auf: 
 
-1. Kern-Funktionalität
-2. Kern-Funktionalität
-3. Kern-Funktionalität
+1. Web-Applikation zeigt in 4 Kolumnen 4 Fabriken, zwei sind "inputs" zwei "outputs".  
+2. Per Web-Applikation kann man Produktionsrate von "Inputs" eingeben. Anhand Daten über Maschinen aus Datenbank wird Produktion eines Outputs ausgerechnet. 
+3. Anhand eingegeben Daten und Ausrechnungen werden Outputrate und Belastung auf die Webseite gezeigt.
 
 Diese Kern-Funktionalitäten brechen Sie nun in etwa 4 AP je herunter. Versuchen Sie jetzt bereits, auch die Sitzung vom 16.5 und 23.5 zu planen (im Wissen, dass Sie kleine Anpassungen an Ihrer Planung vornehmen können).
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Ich erstelle das Datenbank anhand UML-Diagramm in SSMS.
+- [ ] Ich erstelle die Klassen für Datenbank in API und verbinde mit SSMS.
+- [ ] Ich erstelle ein Controller. Es hat eine POST-Funktion, über welchen man Daten senden kann.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
