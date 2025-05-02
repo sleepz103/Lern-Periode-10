@@ -29,8 +29,8 @@ Ausgehend von Ihren Erfahrungen vom 25.4, welche *features* brauchen noch mehr R
 
 - [ ] Auf einen Blatt Papier werde ich detalierter Datenbank Diagramm aufzeichnen. (📵)
 - [ ] Damit ich nach einen Ziel arbeite, werde ich ein Fabrik-Prozess aufzeichnen, wie es die App generieren könnte (Hälfte habe ich in blaues Heft schon gezeichnet) (📵)
-- [ ] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
-  - [ ] Ein schnelles API entwerfen, um (vermutlich) mit Swagger Anfrage senden, per API fangen und, anstatt wie üblich Daten zurückliefern, eine Berechnung durchführen und ein Beispielergebniss zurückliefern.
+- [x] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
+  - [x] Ein schnelles API entwerfen, um (vermutlich) mit Swagger Anfrage senden, per API fangen und, anstatt wie üblich Daten zurückliefern, eine Berechnung durchführen und ein Beispielergebniss zurückliefern.
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? 
 - [ ] Ich werde mittels D3 ausprobieren, verschiedene Figuren mittels Code zu generieren und sie dann mit ein Strich verbinden. (für Figuren habe ich ein Tutorial gefunden [Learning D3 Part 4 - Drawing Basic Shapes with SVG - YouTube](https://www.youtube.com/watch?v=16BfEjrNzr4) )
 
