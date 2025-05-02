@@ -27,7 +27,7 @@ Welche 3 *features* sind die wichtigsten Ihres Projektes? Wie können Sie die Ma
 
 Ausgehend von Ihren Erfahrungen vom 25.4, welche *features* brauchen noch mehr Recherche? (Sie können auch mehrere AP für ein *feature* aufwenden.)
 
-- [ ] Auf einen Blatt Papier werde ich detalierter Datenbank Diagramm aufzeichnen. (📵)
+- [x] Auf einen Blatt Papier werde ich detalierter Datenbank Diagramm aufzeichnen. (📵)
 - [ ] Damit ich nach einen Ziel arbeite, werde ich ein Fabrik-Prozess aufzeichnen, wie es die App generieren könnte (Hälfte habe ich in blaues Heft schon gezeichnet) (📵)
 - [x] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
   - [x] Ein schnelles API entwerfen, um (vermutlich) mit Swagger Anfrage senden, per API fangen und, anstatt wie üblich Daten zurückliefern, eine Berechnung durchführen und ein Beispielergebniss zurückliefern.
