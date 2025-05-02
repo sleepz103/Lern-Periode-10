@@ -16,7 +16,7 @@
 Welche 3 *features* sind die wichtigsten Ihres Projektes? Wie können Sie die Machbarkeit dieser in jeweils 45' am einfachsten beweisen?
 
 - [x] *make or break feature* 1: Wie kann ich eine Datei via Webseite hochladen, sodass ihre Inhalt geladen und gezeigt wird?
-- [ ] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
+- [x] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? Brauche ich eine weniger Front-End orientierte Lösung?
 
 ✍️ Heute habe ich eine Idee um Lernatelier Anforderungen erweitert. Wenn ich Sandbox Spiele über die Produktion spiele, wie z.B. Factorio, finde ich es schwierig weiterzukommen und zu planen, weil ich nicht genug Informationen habe. Ich habe viel darüber nachgedacht, was meine Anforderungen an Informationen sind und wie ich meine Idee in einem Stack umsetzen kann. Nachdem ich ChatGPT konsultiert hatte, erfuhr ich von D3. Ich habe also entschieden, ein klassisches Webapp zu erstellen. Nachdem ich make-or-break Features aufgeschrieben habe, habe ich anhand Tutorials gelernt, wie man eine Datei hochladen kann.
@@ -32,7 +32,7 @@ Ausgehend von Ihren Erfahrungen vom 25.4, welche *features* brauchen noch mehr R
 - [x] *make or break feature* 2: Kann ich auf eine Webseite Button drücken, um paar Berechnungen serverseitig auszuführen und zurückliefern?
   - [x] Ein schnelles API entwerfen, um (vermutlich) mit Swagger Anfrage senden, per API fangen und, anstatt wie üblich Daten zurückliefern, eine Berechnung durchführen und ein Beispielergebniss zurückliefern.
 - [ ] *make or break feature* 3: Wie kann ich auf eine Webseite Elemente darstellen und miteinander verbinden lassen? 
-- [ ] Ich werde mittels D3 ausprobieren, verschiedene Figuren mittels Code zu generieren und sie dann mit ein Strich verbinden. (für Figuren habe ich ein Tutorial gefunden [Learning D3 Part 4 - Drawing Basic Shapes with SVG - YouTube](https://www.youtube.com/watch?v=16BfEjrNzr4) )
+  - [ ] Ich werde mittels D3 ausprobieren, verschiedene Figuren mittels Code zu generieren und sie dann mit ein Strich verbinden. (für Figuren habe ich ein Tutorial gefunden [Learning D3 Part 4 - Drawing Basic Shapes with SVG - YouTube](https://www.youtube.com/watch?v=16BfEjrNzr4) )
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
