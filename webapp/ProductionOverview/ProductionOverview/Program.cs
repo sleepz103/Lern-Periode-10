@@ -1,4 +1,5 @@
-
+using Microsoft.EntityFrameworkCore;
+using ProductionOverview.Models;
 namespace ProductionOverview
 {
     public class Program
@@ -14,7 +15,14 @@ namespace ProductionOverview
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<InventoryContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
