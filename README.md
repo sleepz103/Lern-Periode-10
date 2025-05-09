@@ -54,7 +54,7 @@ Diese Kern-Funktionalitäten brechen Sie nun in etwa 4 AP je herunter. Versuchen
 
 Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS erstellt. Ich bin dabei auf einen komisches Fehlern gestossen, wobei die Beziehung zwischen 3 Tabellen mit 6 Relationen verbunden wurde. Ich habe es repariert, indem ich ein Primärschlussel addiert habe. Danach dank meiner alter API Arbeit habe ich gewusst, wie man der Anfang einer API macht und wie man sie mit Datenbank verbindet. KI hat geholfen, das SQL-Script in C# Modellen umzuwandeln, und danach ging die Verbindung erfolgreich. Es gab ungenügend Zeit aber, noch ein POST Befehl auszuprobieren. (90)
 
-☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
+☝️  Code befindet sich auf branch backend.
 
 ## 16.5
 
