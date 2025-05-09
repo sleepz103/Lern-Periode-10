@@ -48,7 +48,7 @@ Planen Sie nun Ihr Projekt, sodass die *Kern-Funktionalität* in 3 Sitzungen rea
 
 Diese Kern-Funktionalitäten brechen Sie nun in etwa 4 AP je herunter. Versuchen Sie jetzt bereits, auch die Sitzung vom 16.5 und 23.5 zu planen (im Wissen, dass Sie kleine Anpassungen an Ihrer Planung vornehmen können).
 
-- [ ] Ich erstelle das Datenbank anhand UML-Diagramm in SSMS.
+- [x] Ich erstelle das Datenbank anhand UML-Diagramm in SSMS.
 - [ ] Ich erstelle die Klassen für Datenbank in API und verbinde mit SSMS.
 - [ ] Ich erstelle ein Controller. Es hat eine POST-Funktion, über welchen man Daten senden kann.
 
