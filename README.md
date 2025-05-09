@@ -48,20 +48,20 @@ Planen Sie nun Ihr Projekt, sodass die *Kern-Funktionalität* in 3 Sitzungen rea
 
 Diese Kern-Funktionalitäten brechen Sie nun in etwa 4 AP je herunter. Versuchen Sie jetzt bereits, auch die Sitzung vom 16.5 und 23.5 zu planen (im Wissen, dass Sie kleine Anpassungen an Ihrer Planung vornehmen können).
 
-- [ ] Ich erstelle das Datenbank anhand UML-Diagramm in SSMS.
-- [ ] Ich erstelle die Klassen für Datenbank in API und verbinde mit SSMS.
+- [x] Ich erstelle das Datenbank anhand UML-Diagramm in SSMS.
+- [x] Ich erstelle die Klassen für Datenbank in API und verbinde mit SSMS.
 - [ ] Ich erstelle ein Controller. Es hat eine POST-Funktion, über welchen man Daten senden kann.
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS erstellt. Ich bin dabei auf einen komisches Fehlern gestossen, wobei die Beziehung zwischen 3 Tabellen mit 6 Relationen verbunden wurde. Ich habe es repariert, indem ich ein Primärschlussel addiert habe. Danach dank meiner alter API Arbeit habe ich gewusst, wie man der Anfang einer API macht und wie man sie mit Datenbank verbindet. KI hat geholfen, das SQL-Script in C# Modellen umzuwandeln, und danach ging die Verbindung erfolgreich. Es gab ungenügend Zeit aber, noch ein POST Befehl auszuprobieren. (90)
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
 ## 16.5
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Ich erstelle die Webseite, mit HTML und CSS. Es soll 4 Kolumnen haben.
+- [ ] Auf der Webseite werden die Eingaben gesammelt und per POST-Anfrage mittels JS gesendet. (noch nicht zum Server)
+- [ ] Ich erstelle 6 Beispiel-Maschinen und 4 Beispiel-Fabriken. 
+- [ ] Der grösste und wichtigste Teil: Die POST Anfrage wird mit API verbunden, so dass sobald eine POST Anfrage gesendet wird, eine Meldung in der Konsole erscheint. 
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
