@@ -3,17 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const copperForm = document.getElementById('factory-form-copper');
     const submitButton = document.getElementById('submit-both-button');
 
-
     submitButton.addEventListener('click', async (e) => {
         e.preventDefault();
         const data = {
-            iron_production: ironForm.iron_production.value,
-            iron_energy: ironForm.iron_energy.value,
-            copper_production: copperForm.copper_production.value,
-            copper_energy: copperForm.copper_energy.value
+            Iron_Production: ironForm.iron_production.value,
+            Iron_Energy: ironForm.iron_energy.value,
+            Copper_Production: copperForm.copper_production.value,
+            Copper_Energy: copperForm.copper_energy.value
         };
         try {
-            await fetch('/api/factory', {
+            await fetch('https://localhost:7075/api/factory', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)

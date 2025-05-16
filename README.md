@@ -62,9 +62,9 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 - [x] Auf der Webseite werden die Eingaben gesammelt und per POST-Anfrage mittels JS gesendet. (noch nicht zum Server)
 - [ ] ~~Ich erstelle 6 Beispiel-Maschinen und 4 Beispiel-Fabriken.~~
 - [x] Ich erstelle 2 Beispiel-Maschinen und 1 Beispiel-Fabrik
-- [ ] Der grösste und wichtigste Teil: Die POST Anfrage wird mit API verbunden, so dass sobald eine POST Anfrage gesendet wird, eine Meldung in der Konsole erscheint. 
+- [x] Der grösste und wichtigste Teil: Die POST Anfrage wird mit API verbunden, so dass sobald eine POST Anfrage gesendet wird, eine Meldung in der Konsole erscheint. 
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich viel mit KI gearbeitet. Ich habe eine Empfehlung bekommen, dass eine KI mir die Webseite entwirft. Dann konnte ich mich auf die Verbindung mit HTML-Form und API fokussieren. Die Eingaben aus der Webseite werden gesammelt und mit einer POST-Anfrage gesendet. Leider habe ich aber paar Fehler in meiner Datenbank bemerkt und mit rechereche in Internet behoben. Dafür aber nur paar Fabriken in Datenbank eingegeben. Ganz am Ende habe ich die make-or-break Features verbunden und nun mit dem Submit Button wird die Anfrage geschickt und durch API empfangen.
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
