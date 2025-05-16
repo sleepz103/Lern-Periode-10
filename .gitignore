@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/webapp/ProductionOverview/.vs/ProductionOverview/v17
+/webapp/ProductionOverview/.vs/ProductionOverview/CopilotIndices/17.13.444.19527
+/webapp/ProductionOverview/.vs/ProductionOverview/FileContentIndex
+/webapp/ProductionOverview/ProductionOverview/obj
+/webapp/ProductionOverview/.vs
+/webapp/ProductionOverview/ProductionOverview/bin/Debug/net8.0
+/webapp/ProductionOverview/ProductionOverview/ProductionOverview.csproj.user
