@@ -59,7 +59,7 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 ## 16.5
 
 - [x] Ich erstelle die Webseite, mit HTML und CSS. Es soll 4 Kolumnen haben.
-- [ ] Auf der Webseite werden die Eingaben gesammelt und per POST-Anfrage mittels JS gesendet. (noch nicht zum Server)
+- [x] Auf der Webseite werden die Eingaben gesammelt und per POST-Anfrage mittels JS gesendet. (noch nicht zum Server)
 - [ ] Ich erstelle 6 Beispiel-Maschinen und 4 Beispiel-Fabriken. 
 - [ ] Der grösste und wichtigste Teil: Die POST Anfrage wird mit API verbunden, so dass sobald eine POST Anfrage gesendet wird, eine Meldung in der Konsole erscheint. 
 
