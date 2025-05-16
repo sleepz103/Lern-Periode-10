@@ -85,3 +85,28 @@ body {
     border: 1.5px solid #ffb347;
     background: #2d2416;
 }
+
+.factory-form-all {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-btn {
+    background-color: #e07a1b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #ffb347;
+    color: #22201c;
+}
