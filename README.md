@@ -71,9 +71,9 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 ## 23.5
 
 - [ ] Ich erweitere die Webseite, sodass man Anzahl von Maschinen eingeben kann.
-- [ ] Ich erweitere die API, sodass man Anhand fixes Schema Anzahl produzierendes Copper Wire ausrechnen kann.
+- [ ] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Copper Wire ausgerechnet werden kann.
 - [ ] Ich erweitere die Webseite, sodass die Produktionsmengen bei zwei letzten Kolumnen gezeigt werden.
-- [ ] Ich erweitere die API, sodass man Anhand fixes Schema anzahl produzierendes Electronic Circuit ausrechnen kann.
+- [ ] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Electronic Circuit augerechnet werden kann.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
