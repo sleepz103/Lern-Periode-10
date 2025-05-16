@@ -3,3 +3,16 @@ INSERT INTO Machine
 VALUES
 ('Electric mining drill', 90),
 ('Assembling Machine', 75);
+
+
+INSERT INTO Module
+VALUES (1,9);
+
+
+
+INSERT INTO Factory
+VALUES ('Iron Mine', 'Nothing', 'Iron Ore');
+
+
+INSERT INTO Module2Factory
+VALUES (1,1);
