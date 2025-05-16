@@ -7,7 +7,6 @@ namespace ProductionOverview.Models
         public DbSet<Machine> Machines { get; set; }
         public DbSet<Module> Modules { get; set; }
         public DbSet<Factory> Factories { get; set; }
-        public DbSet<Module2Factory> Module2Factories { get; set; }
 
         public InventoryContext(DbContextOptions<InventoryContext> options)
             : base(options)
@@ -16,20 +15,13 @@ namespace ProductionOverview.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Module>()
-                .HasOne(m => m.Machine)
-                .WithMany(mach => mach.Modules)
-                .HasForeignKey(m => m.MachineId);
+                .HasMany(m => m.Factories)
+                .WithMany(f => f.Modules)
+                .UsingEntity(j => j.ToTable("Module2Factory"));
 
-            modelBuilder.Entity<Module2Factory>()
-                .HasOne(m2f => m2f.Module)
-                .WithMany(m => m.Module2Factories)
-                .HasForeignKey(m2f => m2f.ModuleId);
-
-            modelBuilder.Entity<Module2Factory>()
-                .HasOne(m2f => m2f.Factory)
-                .WithMany(f => f.Module2Factories)
-                .HasForeignKey(m2f => m2f.FactoryId);
+            base.OnModelCreating(modelBuilder);
         }
     }
 

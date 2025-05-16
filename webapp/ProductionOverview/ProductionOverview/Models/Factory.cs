@@ -7,7 +7,7 @@
         public string InputItem { get; set; }
         public string OutputItem { get; set; }
 
-        public ICollection<Module2Factory> Module2Factories { get; set; }
+        public ICollection<Module> Modules { get; set; }
     }
 
 }

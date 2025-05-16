@@ -7,7 +7,7 @@
         public int Amount { get; set; }
 
         public Machine Machine { get; set; }
-        public ICollection<Module2Factory> Module2Factories { get; set; }
+        public ICollection<Factory> Factories { get; set; }
     }
 
 }

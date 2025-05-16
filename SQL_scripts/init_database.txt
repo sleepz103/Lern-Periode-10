@@ -1,0 +1,38 @@
+USE FactoryDB
+GO
+
+
+CREATE TABLE Machine (
+    MachineId INT IDENTITY(1,1) PRIMARY KEY,
+    MachineName VARCHAR(255) NOT NULL,
+    EnergyUsage DECIMAL(10,2) NOT NULL
+);
+
+
+
+CREATE TABLE Module (
+    ModuleId INT IDENTITY(1,1) PRIMARY KEY,
+    MachineId INT NOT NULL FOREIGN KEY REFERENCES Machine(MachineId),
+    Amount INT NOT NULL
+);
+
+
+
+
+CREATE TABLE Factory (
+    FactoryId INT IDENTITY(1,1) PRIMARY KEY,
+    FactoryName VARCHAR(255) NOT NULL,
+    InputItem VARCHAR(255) NOT NULL,
+	OutputItem VARCHAR(255) NOT NULL
+);
+
+
+
+
+CREATE TABLE Module2Factory (
+    ModuleId INT NOT NULL,
+    FactoryId INT NOT NULL,
+    PRIMARY KEY (ModuleId, FactoryId),
+    FOREIGN KEY (ModuleId) REFERENCES Module(ModuleId),
+    FOREIGN KEY (FactoryId) REFERENCES Factory(FactoryId)
+);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Factory Output Calculator</title>
+    <script src="factory.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>Factory review</h1>
+            <p>Is your factory at its potential?</p>
+        </header>
+        <div class="column">
+            <strong>Iron Factory</strong>
+            <form id="factory-form-iron" class="factory-form">
+                <label>
+                    Production:
+                    <input type="number" name="iron_production" placeholder="units" min="0" required> per hour
+                </label>
+                <br>
+                <label>
+                    Energy consumption:
+                    <input type="number" name="iron_energy" placeholder="kW" min="0" required> per machine
+                </label>
+            </form>
+        </div>
+        <div class="column">
+            <strong>Copper factory</strong>
+            <form id="factory-form-copper" class="factory-form">
+                <label>
+                    Production:
+                    <input type="number" name="copper_production" placeholder="units" min="0" required> per hour
+                </label>
+                <br>
+                <label>
+                    Energy consumption:
+                    <input type="number" name="copper_energy" placeholder="kW" min="0" required> per machine
+                </label>
+            </form>
+        </div>
+        <div class="column">
+            <strong>Copper wire factory</strong>
+        </div>
+        <div class="column">
+            <strong>Electronic circuit factory</strong>
+        </div>
+        <div style="grid-column: 1 / -1; text-align: center; margin-top: 32px;">
+            <button type="submit" class="submit-btn" id="submit-both-button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
