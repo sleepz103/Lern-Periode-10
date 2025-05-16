@@ -1,0 +1,5 @@
+USE FactoryDB
+INSERT INTO Machine
+VALUES
+('Electric mining drill', 90),
+('Assembling Machine', 75);
