@@ -20,16 +20,14 @@ namespace ProductionOverview.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] FormInput data)
         {
-            //TEMP
+            //logging is TEMP
             Console.WriteLine($"Iron: {data.Iron_Production}, Copper: {data.Copper_Production}");
-            _logger.LogInformation("Received data: {@data}", data);
+            Recipe recipe = new Recipe();
             return Ok(new
             {
                 message = "Received",
-                payload = data
+                payload = "Copper Wire: " + recipe.CopperWire(Convert.ToDouble(data.Copper_Production))
             });
         }
-
-
     }
 }
