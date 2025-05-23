@@ -104,8 +104,8 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 
 ## 13.6
 
-- [ ] 
-- [ ] ...
+- [ ] Die Eingabenfeldern auf die Webseite werden validiert.
+- [ ] Die Webseite wird responsive.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
