@@ -79,13 +79,25 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 
 - [x] Ich lösche die Eingabenfeldern für Energieverbrauch, da man die Daten aus SQL auslesen kann.
 
-- [ ] (Die Webseite wird ausrechnen wie viel eine Fabrik Strom verbraucht.)
-
-✍️ Heute habe ich weniger Code geschrieben und viele Fehler entdeckt. Zuerst habe ich die Webseite um ein Eingabefeld erweitert. Dann habe ich das austausch von Daten konfiguriert, sodass "Submit" eingegebenen Daten sendet und spezifische Ausgaben liefert. Anschliessend werden sie auf der Webseite angezeigt. aber bemerkt, dass es sich eher um eine Webseite handelt und es interessanter wäre, wenn ich CRUD-Operationen einbauen würde. 
+✍️ Heute habe ich weniger Code geschrieben und viele Fehler mit meiner Idee entdeckt. Zuerst habe ich die Webseite um ein Eingabefeld erweitert. Dann habe ich das austausch von Daten konfiguriert, sodass "Submit" eingegebenen Daten sendet und spezifische Ausgaben liefert. Anschliessend werden sie auf der Webseite angezeigt. Am Ende werden beide Rezepten benutzt und auf die Webseite gezeigt, und ihre Verhältnis stimmt auch. Aber bemerkt, dass es sich eher um eine Webseite handelt und es interessanter wäre, wenn ich CRUD-Operationen einbauen würde. (78)
 
 Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa interessant am Ende wird. Deshalb erstelle ich mir Arbeitspaketen für Funktion bevor 6.6 kommt.
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
+
+---
+
+Zusatzarbeitspaketen (nur für mich)
+
+- [ ] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
+
+- [ ] Die Webseite ergänze ich mit einer Section unter Submit Button, wo Benutzer die Daten für neue Maschine eingeben kann.
+
+- [ ] Anstatt "Iron Factory" usw. ich erlaube den Benutzer oben aus Dropdown-Liste die gespeicherten Maschinen zu wählen, damit er die eigen erstellte und gespeicherte Maschinen für die Berechnung nutzen kann.
+
+- [ ] Ich erweitere die Eingabenfeldern oben um "Speed", um Energieverbrauch mal Geschwindigkeit auszurechnen. 
+
+- [ ] Ich ändere die Name zur "Factory Framework", da diese Webseite jede Spiel mit Maschinen und Rezepten akzeptieren wird.
 
 ## 6.6
 
