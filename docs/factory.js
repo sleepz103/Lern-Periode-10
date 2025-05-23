@@ -14,12 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
             Copper_Energy: copperForm.copper_energy.value
         };
         try {
-            await fetch('https://localhost:7075/api/factory', {
+            const response = await fetch('https://localhost:7075/api/factory', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
             });
-            alert('Data submitted!');
+            const result = await response.json();
+            document.getElementById('copper-wire-output').textContent = 'Copper wire output: ' + result.copperWireOutput;
+            document.getElementById('elec-circ-output').textContent = 'Electronic circuit output: ' + result.ecOutput;
             console.log('Data submitted:', data);
         } catch (err) {
             alert('Submission failed.');

@@ -25,8 +25,8 @@ namespace ProductionOverview.Controllers
             Recipe recipe = new Recipe();
             return Ok(new
             {
-                message = "Received",
-                payload = "Copper Wire: " + recipe.CopperWire(Convert.ToDouble(data.Copper_Production))
+                copperWireOutput = recipe.CopperWire(Convert.ToDouble(data.Copper_Production)),
+                ECOutput = recipe.ElectronicCircuit(Convert.ToDouble(data.Iron_Production), Convert.ToDouble(data.Copper_Production))
             });
         }
     }
