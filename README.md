@@ -70,12 +70,20 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 
 ## 23.5
 
-- [ ] Ich erweitere die Webseite, sodass man Anzahl von Maschinen eingeben kann.
-- [ ] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Copper Wire ausgerechnet werden kann.
-- [ ] Ich erweitere die Webseite, sodass die Produktionsmengen bei zwei letzten Kolumnen gezeigt werden.
-- [ ] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Electronic Circuit augerechnet werden kann.
+- [x] Ich erweitere die Webseite, sodass man Anzahl von Maschinen eingeben kann.
+- [x] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Copper Wire ausgerechnet werden kann.
+- [x] Ich erweitere die Webseite, sodass die Produktionsmengen bei zwei letzten Kolumnen gezeigt werden.
+- [x] Ich erweitere die API, sodass anhand eines fixen Schemas die Anzahl produzierendes Electronic Circuit augerechnet werden kann.
 
-✍️ Heute habe ich... (50-100 Wörter)
+---
+
+- [x] Ich lösche die Eingabenfeldern für Energieverbrauch, da man die Daten aus SQL auslesen kann.
+
+- [ ] (Die Webseite wird ausrechnen wie viel eine Fabrik Strom verbraucht.)
+
+✍️ Heute habe ich weniger Code geschrieben und viele Fehler entdeckt. Zuerst habe ich die Webseite um ein Eingabefeld erweitert. Dann habe ich das austausch von Daten konfiguriert, sodass "Submit" eingegebenen Daten sendet und spezifische Ausgaben liefert. Anschliessend werden sie auf der Webseite angezeigt. aber bemerkt, dass es sich eher um eine Webseite handelt und es interessanter wäre, wenn ich CRUD-Operationen einbauen würde. 
+
+Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa interessant am Ende wird. Deshalb erstelle ich mir Arbeitspaketen für Funktion bevor 6.6 kommt.
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 

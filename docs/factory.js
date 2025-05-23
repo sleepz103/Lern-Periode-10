@@ -8,10 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = {
             Iron_Machine: ironForm.iron_machine.value,
             Iron_Production: ironForm.iron_production.value,
-            Iron_Energy: ironForm.iron_energy.value,
             Copper_Machine: copperForm.copper_machine.value,
             Copper_Production: copperForm.copper_production.value,
-            Copper_Energy: copperForm.copper_energy.value
         };
         try {
             const response = await fetch('https://localhost:7075/api/factory', {
