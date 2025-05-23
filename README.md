@@ -91,10 +91,12 @@ Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa 
 
 Ihr Projekt sollte nun alle Funktionalität haben, dass man es benutzen kann. Allerdings gibt es sicher noch Teile, welche "schöner" werden können: Layout, Code, Architektur... beschreiben Sie kurz den Stand Ihres Projekts, und leiten Sie daraus 6 solche "kosmetischen" AP für den 6.6 und den 13.6 ab.
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API und eine SQL-Datenbank. Web-Page hat klar eingeteilte Zonen, aber der Text ist komisch verschoben. Die API hat noch kommentaren, und unklar aufgeteilten Klassen und Ordnerstruktur. Und die SQL-Datenbank scheint zu viel Tabellen zu haben, als tatsächlich doch benutzen werde. Nun bekomme ich Ideen, was verändert sein konnte.
+
+- [ ] Webseite: Die Eingabefeldern werden nach links verschoben und die Name wird oben gezeigt.
+- [ ] Webseite: Unten der Eingabenfeldern werden für "Ausgabe Fabriken" Kennzahlen als Diagrammen wie ZB Pie chart gezeigt.
+- [ ] API: Code-Smells. Ich lösche ALLE Komentare, erkläre unklare Variablen und erstelle Namensystem für zwischen API und Webseite.
+- [ ] SQL: Ich lösche unbenutzte Tabellen und ihre Relationen.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
@@ -102,7 +104,7 @@ Ihr Projekt sollte nun alle Funktionalität haben, dass man es benutzen kann. Al
 
 ## 13.6
 
-- [ ] ...
+- [ ] 
 - [ ] ...
 
 ✍️ Heute habe ich... (50-100 Wörter)
