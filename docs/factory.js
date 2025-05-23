@@ -6,8 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     submitButton.addEventListener('click', async (e) => {
         e.preventDefault();
         const data = {
+            Iron_Machine: ironForm.iron_machine.value,
             Iron_Production: ironForm.iron_production.value,
             Iron_Energy: ironForm.iron_energy.value,
+            Copper_Machine: copperForm.copper_machine.value,
             Copper_Production: copperForm.copper_production.value,
             Copper_Energy: copperForm.copper_energy.value
         };
