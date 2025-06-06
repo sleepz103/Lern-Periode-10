@@ -52,5 +52,32 @@
             <button type="submit" class="submit-btn" id="submit-both-button">Submit</button>
         </div>
     </div>
+    <!-- New Machine section -->
+    <div class="container machine-section">
+        <header class="site-header machine-header">
+            <h1>Create a machine</h1>
+            <p>Give it a name and some additional info. Then it will show up in the drop-downs above.</p>
+        </header>
+        <div class="column">
+            <strong>Machine Details</strong>
+            <form id="machine-form" class="factory-form">
+                <label>
+                    Machine Name:
+                    <input type="text" name="machineName" placeholder="Name" required>
+                </label>
+                <label>
+                    Energy Usage:
+                    <input type="number" name="energyUsage" placeholder="kWh" step="0.01" min="0" required>
+                </label>
+                <label>
+                    Stress Impact:
+                    <input type="number" name="stressImpact" placeholder="0" step="0.01" min="0" required>
+                </label>
+            </form>
+        </div>
+        <div style="width:100%;text-align:center;margin-top:24px;">
+            <button type="button" class="submit-btn" id="create-factory-button">Create Machine</button>
+        </div>
+    </div>
 </body>
 </html>
