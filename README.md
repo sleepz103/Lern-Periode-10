@@ -89,9 +89,9 @@ Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa 
 
 Zusatzarbeitspaketen
 
-- [ ] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
+- [x] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
 
-- [ ] Die Webseite ergänze ich mit einer Section unter Submit Button, wo Benutzer die Daten für neue Maschine eingeben kann.
+- [x] Die Webseite ergänze ich mit einer Section unter Submit Button, wo Benutzer die Daten für neue Maschine eingeben kann.
 
 - [ ] Anstatt "Iron Factory" usw. ich erlaube den Benutzer oben aus Dropdown-Liste die gespeicherten Maschinen zu wählen, damit er die eigen erstellte und gespeicherte Maschinen für die Berechnung nutzen kann.
 
@@ -110,7 +110,7 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 - [ ] API: Code-Smells. Ich lösche ALLE Komentare, erkläre unklare Variablen und erstelle Namensystem für zwischen API und Webseite.
 - [ ] SQL: Ich lösche unbenutzte Tabellen und ihre Relationen.
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich das Projekt repariert. Am Anfang gab es einen API-Problem und stellte sich heraus, dass es noch nicht mit Datenbank verbunden war. Danach habe ich das ganze Datenbank von neu gemacht, aber es war leicht, denn ich die Scripts hatte. Schlussendlich habe ich an den Front-End gearbeitet, wo nun eine weiter Sektion gibt. In der neuer Sektion habe ich ein Button eingebaut, der ähnlich wie oben die Daten an den API und Datenbank schickt. Weil ich am Amfang problem behebte, gab hier keine Probleme. (86)
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
