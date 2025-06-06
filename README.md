@@ -89,15 +89,11 @@ Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa 
 
 Zusatzarbeitspaketen
 
-- [x] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
-
-- [x] Die Webseite ergänze ich mit einer Section unter Submit Button, wo Benutzer die Daten für neue Maschine eingeben kann.
-
 - [ ] Anstatt "Iron Factory" usw. ich erlaube den Benutzer oben aus Dropdown-Liste die gespeicherten Maschinen zu wählen, damit er die eigen erstellte und gespeicherte Maschinen für die Berechnung nutzen kann.
 
-- [ ] Ich erweitere die Eingabenfeldern oben um "Speed", um Energieverbrauch mal Geschwindigkeit auszurechnen. 
-
 - [ ] Ich ändere die Name zur "Factory Framework", da diese Webseite jede Spiel mit Maschinen und Rezepten akzeptieren wird.
+
+- [ ] ~~Ich erweitere die Eingabenfeldern oben um "Speed", um Energieverbrauch mal Geschwindigkeit auszurechnen. ~~
 
 ## 6.6
 
@@ -105,10 +101,12 @@ Ihr Projekt sollte nun alle Funktionalität haben, dass man es benutzen kann. Al
 
 Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API und eine SQL-Datenbank. Web-Page hat klar eingeteilte Zonen, aber der Text ist komisch verschoben. Die API hat noch kommentaren, und unklar aufgeteilten Klassen und Ordnerstruktur. Und die SQL-Datenbank scheint zu viel Tabellen zu haben, als tatsächlich doch benutzen werde. Nun bekomme ich Ideen, was verändert sein konnte.
 
+- [x] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
+
+- [x] Die Webseite ergänze ich mit einer Section unter Submit Button, wo Benutzer die Daten für neue Maschine eingeben kann.
+
 - [ ] Webseite: Die Eingabefeldern werden nach links verschoben und die Name wird oben gezeigt.
 - [ ] Webseite: Unten der Eingabenfeldern werden für "Ausgabe Fabriken" Kennzahlen als Diagrammen wie ZB Pie chart gezeigt.
-- [ ] API: Code-Smells. Ich lösche ALLE Komentare, erkläre unklare Variablen und erstelle Namensystem für zwischen API und Webseite.
-- [ ] SQL: Ich lösche unbenutzte Tabellen und ihre Relationen.
 
 ✍️ Heute habe ich das Projekt repariert. Am Anfang gab es einen API-Problem und stellte sich heraus, dass es noch nicht mit Datenbank verbunden war. Danach habe ich das ganze Datenbank von neu gemacht, aber es war leicht, denn ich die Scripts hatte. Schlussendlich habe ich an den Front-End gearbeitet, wo nun eine weiter Sektion gibt. In der neuer Sektion habe ich ein Button eingebaut, der ähnlich wie oben die Daten an den API und Datenbank schickt. Weil ich am Amfang problem behebte, gab hier keine Probleme. (86)
 
@@ -116,8 +114,8 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 
 ## 13.6
 
-- [ ] Die Eingabenfeldern auf die Webseite werden validiert.
-- [ ] Die Webseite wird responsive.
+- [ ] Webseite: Unten der Eingabenfeldern werden für "Ausgabe Fabriken" Kennzahlen als Diagrammen wie ZB Pie chart gezeigt.
+- [ ] Webseite: Die Eingabefeldern werden nach links verschoben und die Name wird oben gezeigt.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
