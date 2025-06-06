@@ -5,7 +5,8 @@ GO
 CREATE TABLE Machine (
     MachineId INT IDENTITY(1,1) PRIMARY KEY,
     MachineName VARCHAR(255) NOT NULL,
-    EnergyUsage DECIMAL(10,2) NOT NULL
+    EnergyUsage DECIMAL(10,2) NOT NULL,
+	StressImpact DECIMAL(10,2) NOT NULL
 );
 
 

@@ -1,8 +1,8 @@
 USE FactoryDB
 INSERT INTO Machine
 VALUES
-('Electric mining drill', 90),
-('Assembling Machine', 75);
+('Electric mining drill', 90,1),
+('Assembling Machine', 75,1);
 
 
 INSERT INTO Module
