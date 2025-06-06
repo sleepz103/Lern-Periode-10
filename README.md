@@ -81,13 +81,13 @@ Heute habe ich anhand UML-Diagramm Schritt für Schritt die Tabellein in SSMS er
 
 ✍️ Heute habe ich weniger Code geschrieben und viele Fehler mit meiner Idee entdeckt. Zuerst habe ich die Webseite um ein Eingabefeld erweitert. Dann habe ich das austausch von Daten konfiguriert, sodass "Submit" eingegebenen Daten sendet und spezifische Ausgaben liefert. Anschliessend werden sie auf der Webseite angezeigt. Am Ende werden beide Rezepten benutzt und auf die Webseite gezeigt, und ihre Verhältnis stimmt auch. Aber bemerkt, dass es sich eher um eine Webseite handelt und es interessanter wäre, wenn ich CRUD-Operationen einbauen würde. (78)
 
-Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa interessant am Ende wird. Deshalb erstelle ich mir Arbeitspaketen für Funktion bevor 6.6 kommt.
+Mein Projekt entwickelt sich mit der Arbeit. Und ich möchte, dass es noch etwa interessant am Ende wird. Deshalb erstelle ich mir Zusatzarbeitspaketen für Funktionen.,
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
 ---
 
-Zusatzarbeitspaketen (nur für mich)
+Zusatzarbeitspaketen
 
 - [ ] Erstelle neuer Kontroller, um damit Benutzer eigene Maschinen erstellen kann.
 
