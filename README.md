@@ -115,9 +115,9 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 ## 13.6
 
 - [ ] Webseite: Unten der Eingabenfeldern werden für "Ausgabe Fabriken" Kennzahlen als Diagrammen wie ZB Pie chart gezeigt.
-- [ ] Webseite: Die Eingabefeldern werden nach links verschoben und die Name wird oben gezeigt.
+- [x] Webseite: Die Eingabefeldern werden nach links verschoben und die Name wird oben gezeigt.
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich an die Webseite gearbeitet. Zuerst habe ich das Titeln von Boxes nach oben verschoben. Dann konnte ich die Eingaben nach links verschieben. Danach habe ich Titeln in die Dropdown liste geändert. Da «Submit» Knopf nicht seine Funktion machen kann, musste ich auch die Änderungen in C# implementieren. 
 
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
@@ -125,7 +125,8 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 
 Was fehlt Ihrem fertigen Projekt noch, um es auszuliefern? Reicht die Zeit für ein *nice-to-have feature*?
 
-- [ ] ...
+- [ ] Maschinen von Datenbank laden, damit sie in dropdown liste gezeigt werden. 
+- [ ] Pie-Chart zeigen, wie gut ist gerade die Nutzung und empfehlungen geben. 
 
 Bereiten Sie in den verbleibenden 2 AP Ihre Präsentation vor
 
