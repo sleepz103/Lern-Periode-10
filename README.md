@@ -119,6 +119,8 @@ Mein Projekt ist vollständig verbunden. Es gibt eine Webseite, eine ASP.NET API
 
 ✍️ Heute habe ich an die Webseite gearbeitet. Zuerst habe ich das Titeln von Boxes nach oben verschoben. Dann konnte ich die Eingaben nach links verschieben. Danach habe ich Titeln in die Dropdown liste geändert. Da «Submit» Knopf nicht seine Funktion machen kann, musste ich auch die Änderungen in C# implementieren. 
 
+Heute habe ich, glaube ich, mehr gelöscht als geschrieben, da ich die Funktion des Buttons von einem Austausch mit der API auf eine reine Client-seitige Änderung umstellen möchte.
+
 ☝️  Vergessen Sie nicht, den Code von heute auf github hochzuladen.
 
 ## 20.6
