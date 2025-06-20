@@ -13,6 +13,7 @@ namespace ProductionOverview.Models
         public string MachineName { get; set; }
         public decimal EnergyUsage { get; set; }
         public decimal StressImpact { get; set; }
+        public decimal Production { get; set; }
 
         [JsonIgnore]
         public ICollection<Module>? Modules { get; set; }
