@@ -127,15 +127,15 @@ Heute habe ich, glaube ich, mehr gelöscht als geschrieben, da ich die Funktion 
 
 Was fehlt Ihrem fertigen Projekt noch, um es auszuliefern? Reicht die Zeit für ein *nice-to-have feature*?
 
-- [ ] Maschinen von Datenbank laden, damit sie in dropdown liste gezeigt werden. 
+- [x] Maschinen von Datenbank laden, damit sie in dropdown liste gezeigt werden. 
 - [ ] Pie-Chart zeigen, wie gut ist gerade die Nutzung und empfehlungen geben. 
 
 Bereiten Sie in den verbleibenden 2 AP Ihre Präsentation vor
 
-- [ ] Materialien der Präsentation vorbereiten
-- [ ] Präsentation üben
+- [x] Materialien der Präsentation vorbereiten
+- [x] Präsentation üben
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich am bisschen UI korrigiert. Es werden auch nun selbst hergestellte Maschinen gezeigt. Nach einer langen Forschung habe ich erfahren, was noch es braucht, um später die Berechnung zu ermöglichen. Dann habe ich die Datenbank und API aktualisiert. Am Ende habe ein einfaches Powerpoint gemacht. Zunächst wird Factorio vorgestellt und mein Problem beschrieben. Dann wird erklärt, wie meine Applikation als erster Schritt zur Lösung der Probleme dienen kann.
 
 ☝️  Vergessen Sie nicht, die Unterlagen für Ihre Präsentation auf github hochzuladen.
 
