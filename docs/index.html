@@ -48,14 +48,6 @@
                 <br>
             </form>
         </div>
-        <div class="column">
-            <strong>Copper wire factory</strong>
-            <div id="copper-wire-output"></div>
-        </div>
-        <div class="column">
-            <strong>Electronic circuit factory</strong>
-            <div id="elec-circ-output"></div>
-        </div>
         <div style="grid-column: 1 / -1; text-align: center; margin-top: 32px;">
             <button type="submit" class="submit-btn" id="submit-both-button">Calculate</button>
         </div>
@@ -80,6 +72,10 @@
                 <label>
                     Stress Impact:
                     <input type="number" name="stressImpact" placeholder="0" step="0.01" min="0" required>
+                </label>
+                <label>
+                    Production:
+                    <input type="number" name="production" placeholder="items per hour" step="0.01" min="0" required>
                 </label>
             </form>
         </div>

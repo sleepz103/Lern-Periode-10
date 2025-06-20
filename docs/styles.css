@@ -113,12 +113,13 @@ body {
     background: #2d2416;
 }
 
-.factory-form-all {
+/* Only stretch inputs in the machine-section */
+.machine-section .factory-form input[type="number"],
+.machine-section .factory-form input[type="text"] {
+    width: 100%;
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    box-sizing: border-box;
+    display: block;
 }
 
 .submit-btn {
